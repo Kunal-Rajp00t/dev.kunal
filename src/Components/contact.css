@@ -1,0 +1,98 @@
+.mainContact {
+    width: 100%;
+    min-height: 94vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem; 
+    box-sizing: border-box; 
+}
+
+.contactHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contactHeader h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    padding-top: 1em;
+}
+
+.contactHeader h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0 1.5rem;
+    color: #3b3b3b;
+    line-height: 1.5;
+}
+
+.contactBox {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.3);;
+}
+
+.contactBox input,
+.contactBox textarea {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);    
+}
+
+.contactBox textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+#submit {
+    background-color:  #7843E9;
+    color: #fff;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+#submit:hover {
+    background-color:  #612dcf;
+}
+input[type=text]:focus {
+    border: 1px solid #612dcf;
+}
+
+@media (max-width: 700px) {
+    /* .contactHeader h1 {
+        font-size: 2rem;
+    } */
+
+    /* .contactHeader h3 {
+        font-size: 1rem;
+        padding: 0 1rem; 
+    } */
+
+    .contactBox {
+        padding: 1rem;
+    }
+
+    #submit {
+        font-size: 1rem;
+    }
+}

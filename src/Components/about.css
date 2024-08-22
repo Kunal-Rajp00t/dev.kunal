@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.mainAbout {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mainAbout h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    padding-top: 1em;
+}
+
+.mainAbout p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0px 2em;
+}
+
+.under {
+    width: 2rem;
+    height: 6px;
+    border-radius: 15px;
+    background-color: #7843E9;
+    margin: .9em auto;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.para {
+    text-align: left;
+    padding: 1.5em;
+    font-size: .92em;
+    color: rgb(78, 78, 78);
+    font-weight: 400;
+}
+
+.para h2 {
+    margin-bottom: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hiBtn {
+    font-size: 1.5em;
+    /* padding: .48em 1.1em .48em .9em; */
+    padding: .78em 2em .78em 1.7em;
+    margin: 1em 0em;
+    background-color: #7843E9;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 7%;
+}
+.hiBtn a{
+    color: white;
+    text-decoration: none;
+}
+.hiBtn:hover{
+    margin: .8em 0em 1.2em 0em;
+    cursor: pointer;
+}
+
+.skills {
+    text-align: right;
+    padding: 1.5em;
+}
+
+.skills h2 {
+    margin-bottom: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.packet {
+    margin-left: 20%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.skBtn {
+    font-size: .88em;
+    padding: .6em 1em;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(114, 114, 114);
+}
+.skBtn:hover{
+    background-color: #e0e0e0;
+    color: rgb(95, 95, 95);
+}
+@media (max-width:600px) {
+    .section {
+        grid-template-columns: 1fr;
+    }
+
+    .skills {
+        text-align: left;
+    }
+
+    .packet {
+        margin-left: 0%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+}
+
+.bld0{
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+.cl0{
+    text-decoration: underline;
+    color: #7843E9;
+    font-weight: 700;
+}

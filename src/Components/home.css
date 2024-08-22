@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainHome {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0em;
+    background: url("https://img.freepik.com/free-vector/realistic-white-monochrome-background_23-2149003413.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
+    width: 70vw;
+    margin: auto;
+    padding-top: 10rem;
+    font-family: "Arimo", sans-serif;
+    padding-bottom: 9rem;
+
+}
+
+.intro {
+    margin: auto;
+}
+
+.myintro {
+    margin: 1.2em 0px;
+    font-size: 22px;
+}
+
+.photo {
+    margin: auto;
+    animation-name: photoAn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+.image {
+    width: 100%;
+    background: linear-gradient(to left, #ff9999, #7e96af, #556270);
+    padding: 3px;
+    border-radius: 20rem;
+}
+
+@media screen and (max-width: 700px) {
+    .mainHome{
+        height: 100%;
+    }
+    .main {
+        grid-template-columns: 1fr;
+        /* margin-top: 5.5rem; */
+
+    }
+
+    .intro {
+        font-size: 13px;
+        width: 110%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.heading {
+    position: relative;
+    animation: upper 3.5s;
+    animation-iteration-count: 1;
+    background: linear-gradient(to left, #dc2424, #4a569d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.resume-button {
+    font-size: 1.2em;
+    padding: .5em 1em;
+    font-weight: 400;
+    font-family: cursive;
+    border-radius: 32px;
+    border: 2px solid #494949;
+    color: rgb(0, 0, 0);
+    box-shadow: 4px 3px 4px #596a59;
+    position: relative;
+    height: 3em;
+    background-color: #e5e7e5b2;
+}
+
+.gayathri-bold {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.resume-button:hover {
+    border: 2px solid black;
+    animation-name: btn-Animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    color: white;
+    border-radius: 32px;
+    /* background: linear-gradient(to top left, #b9c9b9,#eaf5ea,white); */
+    background: linear-gradient(to left, #dc2424da, #4a569dd8);
+    box-shadow: 3px 2px 3px #92a392;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.container {
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 1em;
+    margin-top: 2em;
+}
+
+/** Button Code **/
+
+.button {
+    margin: 2px;
+    width: 32px;
+    height: 32px;
+    line-height: 35px;
+    display: block;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #444;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 10;
+    color: #333;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button:after {
+    position: absolute !important;
+    content: "";
+    width: 22px;
+    height: 23px;
+    display: block;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+    background-color: #333;
+    visibility: hidden;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    opacity: 1\9;
+    visibility: visible\9;
+    display: none\9;
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    z-index: -1;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.button:hover:after {
+    visibility: visible;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    display: block\9;
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
