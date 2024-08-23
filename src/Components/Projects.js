@@ -148,7 +148,7 @@ const Projects = () => {
         <div className="box" ref={b2}>
           <div className="text-Area">
             <h3>Taskify</h3>
-            Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit. dio earum enim voluptate quas consectetur ad non veniam.
+            It is a streamlined to-do list app that allows users to easily add and delete tasks. Its simple and intuitive interface ensures efficient task management and organization.
             <br /><span>ReactJs, Storage, React Router, Frontend</span>
             <br />
             <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/Taskify" }}>Source Code</button>
@@ -158,7 +158,7 @@ const Projects = () => {
         </div>
         <div className="box" ref={b3}> <div className="text-Area">
           <h3>DishTopTen</h3>
-          Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit. dio earum enim voluptate quas consectetur ad non veniam.
+          It delivers the top ten recipe results based on your search query, providing you detailed information and complete recipes for each dish, making meal planning easy and tasty.
           <br /><span>REST APIs, NodeJs, ExpressJs</span>
           <br />
           <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/DishTopTen" }} >Source Code</button>
@@ -167,7 +167,7 @@ const Projects = () => {
           <div className="image-Area"><img id='img3' src={DTTMB} alt="" /></div></div>
         <div className="box" ref={b4}> <div className="text-Area">
           <h3>SkyScout</h3>
-          Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit. dio earum enim voluptate quas consectetur ad non veniam.
+          This weather app gives you current weather conditions for any city you search, providing precise and timely updates.
           <br /><span>API Calls, DOM Manipulation, BootStrap</span>
           <br />
           <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/SkyScout" }}>Source Code</button>
@@ -176,7 +176,7 @@ const Projects = () => {
           <div className="image-Area"><img id='img4' src={SSMB} alt="" /></div></div>
         <div className="box" ref={b5}> <div className="text-Area">
           <h3>Quickrate</h3>
-          Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit. dio earum enim voluptate quas consectetur ad non veniam.
+          This app lets you seamlessly convert currencies from over 100 countries, offering real-time exchange rates to keep your finances on track wherever you go.
           <br /><span>JavaScript, Responsive Design, API Integration</span>
           <br />
           <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/QuickRate---A-Real-Time-Currency-Converter" }}>Source Code</button>
@@ -185,7 +185,7 @@ const Projects = () => {
           <div className="image-Area"><img id='img5' src={QRMB} alt="" /></div></div>
         <div className="box" ref={b6}> <div className="text-Area">
           <h3>BMI Finder</h3>
-          Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit. dio earum enim voluptate quas consectetur ad non veniam.
+          It quickly calculates your Body Mass Index and provides insights into your health status, helping you monitor and manage your wellness with ease.
           <br /><span>JavaScript, Calculation, User Input Validation</span>
           <br />
           <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/BMIFinder" }}>Source Code</button>
