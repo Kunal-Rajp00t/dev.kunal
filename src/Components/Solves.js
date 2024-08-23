@@ -56,7 +56,7 @@ const Solves = () => {
         <div className='mainSolves' id='solves'>
             <div className="solvesHeader">
                 <h1>PROBLEMS I'VE SOLVED</h1><div className="under"></div>
-                <h3> While I've focused on mastering technology, I understand the value of practical problem-solving. I am committed to dedicating more time to challenges to sharpen my skills and deliver innovative solutions. </h3>
+                <h3> While mastering technology, I understand the value of practical problem-solving. I am committed to dedicating more time to challenges to sharpen my skills and deliver innovative solutions. </h3>
             </div>
 
             <div className="solvesBody">
