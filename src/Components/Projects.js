@@ -138,9 +138,9 @@ const Projects = () => {
             It is a curated collection of my information, showcasing my projects and ability to create visually compelling and functional web experiences.
             <br /> <span>ReactJs, NodeJs, Interactive UI, GSAP</span>
             <br />
-            <button onClick={() => { window.location.href = "https://google.com" }}>Source Code</button>
+            <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/dev.kunal" }}>Source Code</button>
           </div>
-          <a href="https://google.com" rel="noreferrer" target='_blank'><div className="tempDiv">Live Site</div></a>
+          <a href="https://dev-kunal.vercel.app" ><div className="tempDiv">Live Site</div></a>
           <div className="image-Area">
             <img id='img1' src={PortfolioMB} alt="" />
           </div>
