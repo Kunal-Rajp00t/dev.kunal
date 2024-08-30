@@ -59,7 +59,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<>
-          <a href="http://wa.me/8604156831"><div className="whatsapp" onMouseOver={() => { changeIcon1(); }} onMouseLeave={() => { changeIcon2(); }}> <i className="fa fa-whatsapp" id="icon"></i></div></a>
+          <a href="http://wa.me/+918604156831"><div className="whatsapp" onMouseOver={() => { changeIcon1(); }} onMouseLeave={() => { changeIcon2(); }}> <i className="fa fa-whatsapp" id="icon"></i></div></a>
         </>} />
 
       </Routes>
