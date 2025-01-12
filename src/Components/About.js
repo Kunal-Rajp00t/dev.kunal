@@ -65,6 +65,7 @@ const About = () => {
             <button className="skBtn">JAVASCRIPT</button><button className="skBtn">REACT</button>
             <button className="skBtn">GSAP</button><button className="skBtn">NODE</button>
             <button className="skBtn">EXPRESS</button><button className="skBtn">BOOTSTRAP</button>
+            <button className="skBtn">SOCKET IO</button><button className="skBtn">REACT ROUTER</button>
             <button className="skBtn">DOM</button><button className="skBtn">UI/UX DESIGN</button>
             <button className="skBtn">NETLIFY</button>
             <button className="skBtn">CORE JAVA</button><button className="skBtn">REST APIs</button>
