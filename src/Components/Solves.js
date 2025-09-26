@@ -67,7 +67,7 @@ const Solves = () => {
                 <div className="wBox">
                     <div className="line" ref={l1}></div>
                     <h2 className="headText">LEETCODE</h2>
-                    <div className="mainText">I have actively engaged with LeetCode to sharpen my <span className="special">problem-solving skills</span> and <span className="special">algorithmic thinking</span>. I've solved over <span className="special">500+ problems</span>  and achieved a highest contest rating of 1550+. My dedication to continuous improvement is reflected in the numerous badges I've earned, showcasing my proficiency in various programming concepts and data structures. <a href="https://leetcode.com/u/Kunal_Rajput_/" target='_blank' rel="noreferrer">Visit Profile</a> </div>
+                    <div className="mainText">I have actively engaged with LeetCode to sharpen my <span className="special">problem-solving skills</span> and <span className="special">algorithmic thinking</span>. I've solved over <span className="special">900+ problems</span>  and achieved a highest contest rating of 1730+. My dedication to continuous improvement is reflected in the numerous badges I've earned, showcasing my proficiency in various programming concepts and data structures. <a href="https://leetcode.com/u/Kunal_Rajput_/" target='_blank' rel="noreferrer">Visit Profile</a> </div>
                 </div>
                 <div className="wBox2">
                     <div className="line" ref={l2}></div>
@@ -91,3 +91,4 @@ const Solves = () => {
 }
 
 export default Solves
+
