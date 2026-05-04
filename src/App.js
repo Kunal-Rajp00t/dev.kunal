@@ -54,7 +54,7 @@ function App() {
         </div>
         <hr />
 
-        <div className="lowerArea">&copy; Copyright 2024. Designed and Coded by <a href="#Home">dev.kunal</a></div>
+        <div className="lowerArea">&copy; Copyright 2026. Designed and Coded by <a href="#Home">dev.kunal</a></div>
       </footer>
       <Routes>
 

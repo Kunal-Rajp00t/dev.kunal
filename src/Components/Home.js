@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import './home.css'
 import MyPic from './Images/mypic3y.jpg'
-import resume from './Images/Kunal_Resume.pdf';
+import resume from './Images/Resume_KunalRajput.pdf';
 // import MyPic from './Images/mypic2.jpg'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';

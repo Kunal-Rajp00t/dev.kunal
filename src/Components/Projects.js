@@ -3,7 +3,7 @@ import './Projects.css'
 import { gsap } from 'gsap'
 
 import TaskifyMB from './Images/TaskifyMB.jpg';
-import DTTMB from './Images/DTTMB.jpg'
+import ALMB from './Images/ALMB.png'
 import QRMB from './Images/QuickRateMB.jpg'
 import BMIMB from './Images/BMIMB.jpg'
 import SSMB from './Images/SSMB.jpg'
@@ -12,7 +12,7 @@ import PortfolioPC from './Images/PortfolioPC.jpg'
 import SSPC from './Images/SSPC.jpg'
 import BMIPC from './Images/BMIPC.jpg'
 import QRPC from './Images/QuickRatePC.jpg'
-import DTTPC from './Images/DTTPC.jpg'
+import ALPC from './Images/ALPC.png'
 import TaskifyPC from './Images/TaskifyPC.jpg'
 
 const Projects = () => {
@@ -32,14 +32,14 @@ const Projects = () => {
     if(screen<700){
       document.getElementById("img1").src=PortfolioPC;
       document.getElementById("img2").src=TaskifyPC;
-      document.getElementById("img3").src=DTTPC;
+      document.getElementById("img3").src=ALPC;
       document.getElementById("img4").src=SSPC;
       document.getElementById("img5").src=QRPC;
       document.getElementById("img6").src=BMIPC;
     }else{
       document.getElementById("img1").src=PortfolioMB;
       document.getElementById("img2").src=TaskifyMB;
-      document.getElementById("img3").src=DTTMB;
+      document.getElementById("img3").src=ALMB;
       document.getElementById("img4").src=SSMB;
       document.getElementById("img5").src=QRMB;
       document.getElementById("img6").src=BMIMB;
@@ -157,14 +157,14 @@ const Projects = () => {
           <div className="image-Area"><img id='img2' src={TaskifyMB} alt="XXX" /></div>
         </div>
         <div className="box" ref={b3}> <div className="text-Area">
-          <h3>DishTopTen</h3>
-          It delivers the top ten recipe results based on your search query, providing you detailed information and complete recipes for each dish, making meal planning easy and tasty.
-          <br /><span>REST APIs, NodeJs, ExpressJs</span>
+          <h3>AlgoLens</h3>
+          An interactive web app that visualizes sorting algorithms through real-time animations. Users can shuffle the array and sort to observe algos visually, with ongoing features & optimizations.
+          <br /><span>Data Structures & Algorithms, ReactJs, Animations</span>
           <br />
-          <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/DishTopTen" }} >Source Code</button>
+          <button onClick={() => { window.location.href = "https://github.com/Kunal-Rajp00t/algolens" }} >Source Code</button>
         </div>
-          <a href="https://dish-top-ten.vercel.app/" rel="noreferrer" target='_blank'><div className="tempDiv">Live Site</div></a>
-          <div className="image-Area"><img id='img3' src={DTTMB} alt="" /></div></div>
+          <a href="https://algo-lens.vercel.app/" rel="noreferrer" target='_blank'><div className="tempDiv">Live Site</div></a>
+          <div className="image-Area"><img id='img3' src={ALMB} alt="" /></div></div>
         <div className="box" ref={b4}> <div className="text-Area">
           <h3>SkyScout</h3>
           This weather app gives you current weather conditions for any city you search, providing precise and timely updates.

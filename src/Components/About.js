@@ -67,7 +67,8 @@ const About = () => {
             <button className="skBtn">EXPRESS</button><button className="skBtn">BOOTSTRAP</button>
             <button className="skBtn">SOCKET IO</button><button className="skBtn">REACT ROUTER</button>
             <button className="skBtn">DOM</button><button className="skBtn">UI/UX DESIGN</button>
-            <button className="skBtn">NETLIFY</button>
+            <button className="skBtn">MONGODB</button>
+            <button className="skBtn">VERCEL</button>
             <button className="skBtn">CORE JAVA</button><button className="skBtn">REST APIs</button>
             <button className="skBtn">RESPONSIVE DESIGN</button><button className="skBtn">PROBLEM SOLVING</button>
             <button className="skBtn">DATA STRUCTURES</button><button className='skBtn'> ALGORITHMS</button>
