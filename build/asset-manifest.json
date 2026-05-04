@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3332334f.css",
+    "main.js": "/static/js/main.5b5c818a.js",
+    "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
+    "static/media/bgvideo.mp4": "/static/media/bgvideo.e28f77ddbaae1f7ed20a.mp4",
+    "static/media/BMIPC.jpg": "/static/media/BMIPC.01fe5c7299af0ca52c2c.jpg",
+    "static/media/TaskifyPC.jpg": "/static/media/TaskifyPC.391bce03f3c27f6c98e2.jpg",
+    "static/media/mypic3y.jpg": "/static/media/mypic3y.200f83c2a6d18e718a57.jpg",
+    "static/media/ALPC.png": "/static/media/ALPC.2f83be834a310e92c86e.png",
+    "static/media/PortfolioPC.jpg": "/static/media/PortfolioPC.a77248a09cc6da929f5a.jpg",
+    "static/media/SSPC.jpg": "/static/media/SSPC.e8bcba817526a91e7912.jpg",
+    "static/media/ALMB.png": "/static/media/ALMB.ce3affff7fed24dc20cc.png",
+    "static/media/BMIMB.jpg": "/static/media/BMIMB.fdb8906acdf2d54cebcf.jpg",
+    "static/media/Resume_KunalRajput.pdf": "/static/media/Resume_KunalRajput.03ca39a799e268f497ad.pdf",
+    "static/media/TaskifyMB.jpg": "/static/media/TaskifyMB.712be4de13ae28d9c494.jpg",
+    "static/media/PortfolioMB.jpg": "/static/media/PortfolioMB.2e32c5d2b2a723248f4b.jpg",
+    "static/media/QuickRatePC.jpg": "/static/media/QuickRatePC.68c74c11b245f477939d.jpg",
+    "static/media/SSMB.jpg": "/static/media/SSMB.796174e62c0bb66f33f3.jpg",
+    "static/media/QuickRateMB.jpg": "/static/media/QuickRateMB.1b77ebd9597d983c88fc.jpg",
+    "index.html": "/index.html",
+    "main.3332334f.css.map": "/static/css/main.3332334f.css.map",
+    "main.5b5c818a.js.map": "/static/js/main.5b5c818a.js.map",
+    "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3332334f.css",
+    "static/js/main.5b5c818a.js"
+  ]
+}
